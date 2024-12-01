@@ -10,7 +10,7 @@ The aim of this project is to develop an Arduino-based intelligent plant monitor
 ## Progress of work
 Real-time light, temperature and humidity detection and colour feedback  
 
-Light intensity, temperature and humidity are monitored in real time using a photoresistor and mapped to RGB colours:  
+Light intensity, temperature and humidity are monitored in real time mapped to RGB colours:  
 Low : blue  
 Good : green  
 Excessive : red  
