@@ -8,8 +8,10 @@ So far, it occurred to me that since I already have an automatic irrigation syst
 The aim of this project is to develop an Arduino-based intelligent plant monitoring system to achieve real-time monitoring and visual feedback of plant growth environment. By integrating multiple sensors (LDR, temperature and humidity sensors), the system is able to collect the environmental parameters around the plants (including light intensity, air temperature and humidity) and transmit the data to the Chrono Lumina Light by using the MQTT protocol. the colour change of the light will reflect the plant's growing environment condition, which will help the user to better understand and improve the plant's growing conditions.
 
 ## Structure
-### test folder              
-#### ldr_rhe_test            
+### test folder
+#### ldr_rhe_test
+Test code (test if ldr and slide rheostat works and check the value returned from them)
+#### ldr_mqtt_test            
 Test code (test LDR to detect light intensity and slide rheostat control brightness as well as publish RGB settings and brightness setting to mqtt)  
 #### ldr_ASAIR_test  
 Test code (test LDR, ASAIR Sensor to detect light intensity, temperature and humidity, publish RGB settings to mqtt)  
