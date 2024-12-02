@@ -22,5 +22,5 @@ Configure a sliding resistor to adjust the brightness of the light and publish i
 code for testing  
  **`ldr_rhe_test`**: test if ldr and slide rheostat works and check the value returned from them  
  **`ldr_mqtt_test`**: LDR to detect light intensity and slide rheostat control brightness as well as publish RGB settings and brightness setting to mqtt   
- **`ldr_ASAIR_test`**: LDR, ASAIR Sensor to detect light intensity, temperature and humidity, publish RGB settings to mqtt(false one, code is wrong, library is wrong)
+ **`ldr_ASAIR_test`**: LDR, ASAIR Sensor to detect light intensity, temperature and humidity, publish RGB settings to mqtt(false one, code is wrong, library is wrong)  
  **`ldr_dht_ver2`**: LDR, ASAIR Sensor to detect light intensity, temperature and humidity, publish RGB settings to mqtt(Final version for now)
