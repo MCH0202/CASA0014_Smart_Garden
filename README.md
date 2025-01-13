@@ -1,6 +1,8 @@
 # Plant Monitoring System 🌱 
 (There is not much evidence of LEDS pictures since the Chrono Lumina unit has not worked since the last reset. However, Mqtt Explorer can indicate that the LEDS should be on.)
+
 <img src="/result/device2.jpg" alt="device" style="zoom:10%;" />
+
 ## A Spark of Inspiration
 In the CASA0016 course, I developed an automated irrigation system designed to prevent prevent me from forgetting to water. I have to say that I really don't have a good memory, which leads to my potted plants at home often dying. The system automates irrigation by monitoring soil moisture and rainfall through sensors.
 So far, it occurred to me that since I already have an automatic irrigation system to keep my houseplants alive, why not let them live a little better? So I had this idea of being able to see directly how well my plants are living.
