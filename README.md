@@ -111,7 +111,9 @@ create a .h file to store your mqtt server information:
 ### Test the System
 
 - Power on the device and observe LED feedback.
-- Use an MQTT client (e.g., MQTT Explorer) to check the topics and the result should looks like figure below. (There is not much evidence of LEDS pictures since the Chrono Lumina unit has not worked since the last reset. However, Mqtt Explorer can indicate that the LEDS should be on.)
+- Use an MQTT client (e.g., MQTT Explorer) to check the topics and the result should looks like figure below. (There is not much evidence of LEDS pictures since the Chrono Lumina unit has not worked since the last reset.)
 <img src="/result/result2.png" alt="result" style="zoom:1%;" />
+<img src="/result/result4.jpg" alt="result4" style="zoom:1%;" />
+<img src="/result/result5.jpg" alt="result5" style="zoom:1%;" />
 
 
