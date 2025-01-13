@@ -36,7 +36,7 @@ Configure a sliding resistor to adjust the brightness of the light and publish i
             - README.md
 ```
 
-## Structure
+
 ### test folder
 code for testing  
  **`ldr_rhe_test`**: test if ldr and slide rheostat works and check the value returned from them  
