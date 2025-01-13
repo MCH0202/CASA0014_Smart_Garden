@@ -57,6 +57,8 @@ The Plant Monitor system collects environmental data using sensors and transmits
 
 4. **Visualization**:
    - Data can be visualized through an MQTT client or the colour changing will be happened on LEDs.
+  
+<img src="/result/interactive.png" alt="result" style="zoom:10%;" />
 ## Installation and Setup
 ### Hardware setup
 - **ASAIR AM2122 Temperature and Humidity Sensor**:
@@ -86,6 +88,7 @@ create a .h file to store your mqtt server information:
 ### Test the System
 
 - Power on the device and observe LED feedback.
-- Use an MQTT client (e.g., MQTT Explorer) to monitor the topics listed below.
+- Use an MQTT client (e.g., MQTT Explorer) to check the topics and the result should looks like figure below.
+<img src="/result/result2.png" alt="result" style="zoom:1%;" />
 
 
