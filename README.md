@@ -1,5 +1,5 @@
-🌱 Plant Monitoring System
-Plant Monitor is an Internet of Things (IoT) project designed to monitor environmental conditions for plants, including temperature, humidity, and light levels. This project provides real-time visual feedback through LEDs and transmits data to an MQTT broker for remote monitoring and analysis.
+# Plant Monitoring System 🌱 
+Plant Monitor is an Internet of Things (IoT) project designed to monitor environmental conditions for plants, including temperature, humidity, and light levels. This project provides real-time visual feedback through LEDs and transmits data to an MQTT broker for remote monitoring and analysis. (There is not much evidence of LEDS pictures since the Chrono Lumina unit has not worked since the last reset. However, Mqtt Explorer can indicate that the LEDS should be on.)
 <img src="/result/device2.jpg" alt="device" style="zoom:10%;" />
 ## A Spark of Inspiration
 In the CASA0016 course, I developed an automated irrigation system designed to prevent prevent me from forgetting to water. I have to say that I really don't have a good memory, which leads to my potted plants at home often dying. The system automates irrigation by monitoring soil moisture and rainfall through sensors.
@@ -15,6 +15,26 @@ Light intensity, temperature and humidity are monitored in real time mapped to R
 -Good : green  
 -Excessive : red  
 Configure a sliding resistor to adjust the brightness of the light and publish it to the server via MQTT.
+
+## Repository Structure
+```plaintext
+- CASA0014_Smart_Garden/
+            - Src/
+                        - PlantMonitor.ino //final version of code
+            - result/
+                        - device.jpg       //appearance of device
+                        - device2.jpg      //appearance of device
+                        - interactive.png  //physical part and cloud part relation
+                        - result.png       //LEDS status changed from mqtt explorer
+                        - result2.png       //LEDS status changed from mqtt explorer
+                        - result3.png       //LEDS status changed from mqtt explorer
+            - test/
+                        - ldr_ASAIR_test.ino     //test code
+                        - ldr_dht_ver2.ino       //test code
+                        - ldr_mqtt_test.ino      //test code
+                        - ldr_rhe_test.ino       //test code
+            - README.md
+```
 
 ## Structure
 ### test folder
@@ -88,7 +108,7 @@ create a .h file to store your mqtt server information:
 ### Test the System
 
 - Power on the device and observe LED feedback.
-- Use an MQTT client (e.g., MQTT Explorer) to check the topics and the result should looks like figure below.
+- Use an MQTT client (e.g., MQTT Explorer) to check the topics and the result should looks like figure below. (There is not much evidence of LEDS pictures since the Chrono Lumina unit has not worked since the last reset. However, Mqtt Explorer can indicate that the LEDS should be on.)
 <img src="/result/result2.png" alt="result" style="zoom:1%;" />
 
 
