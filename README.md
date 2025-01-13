@@ -1,4 +1,4 @@
-# 🌱 Smart Plant Monitoring System (in progress)
+# 🌱 Plant Monitoring System
 
 ## A Spark of Inspiration
 In the CASA0016 course, I developed an automated irrigation system designed to prevent prevent me from forgetting to water. I have to say that I really don't have a good memory, which leads to my potted plants at home often dying. The system automates irrigation by monitoring soil moisture and rainfall through sensors.
