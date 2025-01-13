@@ -1,5 +1,5 @@
 # Plant Monitoring System 🌱 
-Plant Monitor is an Internet of Things (IoT) project designed to monitor environmental conditions for plants, including temperature, humidity, and light levels. This project provides real-time visual feedback through LEDs and transmits data to an MQTT broker for remote monitoring and analysis. (There is not much evidence of LEDS pictures since the Chrono Lumina unit has not worked since the last reset. However, Mqtt Explorer can indicate that the LEDS should be on.)
+(There is not much evidence of LEDS pictures since the Chrono Lumina unit has not worked since the last reset. However, Mqtt Explorer can indicate that the LEDS should be on.)
 <img src="/result/device2.jpg" alt="device" style="zoom:10%;" />
 ## A Spark of Inspiration
 In the CASA0016 course, I developed an automated irrigation system designed to prevent prevent me from forgetting to water. I have to say that I really don't have a good memory, which leads to my potted plants at home often dying. The system automates irrigation by monitoring soil moisture and rainfall through sensors.
